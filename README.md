@@ -12,7 +12,7 @@
 
 <p>O projeto tinha como objetivo desenvolver uma página HTML estilizada com CSS. Ao elaborar o projeto pude realizar a construção do código HTML, praticar posicionamento e estilização CSS e aplicar conceitos de semântica apropriados para que o site fosse acessível e melhor ranqueado.</p>
 
-<p>O site criado possui uma série de informações sobre o que aprendi até aquele momento do curso e como< tem sido a minha experiência de aprendizado.</p>
+<p>O site criado possui uma série de informações sobre o que aprendi até aquele momento do curso e como tem sido a minha experiência de aprendizado.</p>
 
 <p>Link para conferência: https://Lucas-PCN.github.io/lessons-learned/</p>
 
