@@ -26,9 +26,12 @@ footer {
   background-color: rgb(48, 48, 48);
   clear: both;
   color: white;
-  padding: 20px;
   text-align: center;
   width: 100%;
+}
+
+footer p {
+  padding: 20px;
 }
 
 footer a {
@@ -77,16 +80,17 @@ main p {
 h2 {
   color: salmon;
   font-family: Helvetica;
-  font-size: 30px;
+  font-size: 1,5%;
   padding-bottom: 20px;
 }
 
 .listas {
   display: flex;
+  gap: 5%;
   margin: 0 auto;
   margin-bottom: 40px;
-  justify-content: space-evenly;
-  width: 900px;
+  justify-content: center;
+  width: 100%;
 }
 
 .lista {
@@ -94,8 +98,7 @@ h2 {
   color: white;
   list-style-position: inside;
   padding: 30px;
-  height: 350px;
-  width: 300px;
+  width: 18%;
 }
 
 .listas li {
@@ -107,15 +110,14 @@ h2 {
   margin: 0 auto;
   margin-bottom: 40px;
   justify-content: space-evenly;
-  width: 1500px;
+  width: 80%;
 }
 
 .lado-esquerdo {
   background-color: rgb(121, 33, 18);
   color: white;
-  height: 230px;
   padding: 30px;
-  width: 800px;
+  width: 45%;
 }
 
 .lado-esquerdo p {
@@ -148,3 +150,35 @@ h2 {
   border: 1px solid black;
   padding: 8px;
 }
+
+@media screen and (max-width: 700px) {
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nome {
+    margin-top: 0;
+  }
+
+  .lista {
+    width: 25%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer a {
+    color: salmon;
+    text-decoration: none;
+  }
+
+  footer p {
+    padding: 20px;
+    width: 350px;
+  }
+}
+
